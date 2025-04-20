@@ -1,0 +1,85 @@
+body {
+    background-color: #0e83a0;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    background-image: url(https://wallpapercave.com/wp/wp1973982.jpg);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0c0003;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #80048b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0a0000;
+}
+
+a button {
+    text-decoration: overline;
+    color: white;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #01000a;
+    border-radius: 8px;
+    background-color: #140107;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form input[type="radio"] {
+    margin: 10px 5px 10px 0;
+}
+
+hr {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+    p, h1, h2 {
+        text-align: center;
+    }
+}
